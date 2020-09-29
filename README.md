@@ -1,20 +1,19 @@
 # docker_gcc_lapack_opencv_etc
 
-Modified ver. of [Paperist/docker-alpine-texlive-ja](https://hub.docker.com/r/paperist/alpine-texlive-ja)
+This image add several libraries to [gcc](https://hub.docker.com/_/gcc)
 
 ## Install
 
 ```bash
-docker pull yamat/texlive_biber_make
+docker pull yamat/gcc_lapack_opencv_etc
 ```
 
-## Usage
-
-You should prepare Makefile before.
+## Example usage
 
 ```bash
-$ docker run --rm -it -v $PWD:/workdir yamat/texlive_biber_make
+$ docker run --rm -it -v $PWD:/workdir yamat/gcc_lapack_opencv_etc
 $ make
+$ ./a.out
 ```
 
 

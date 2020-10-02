@@ -18,6 +18,7 @@ RUN mkdir cmake_build && \
     cp make.tmp make.sh && \
     sh make.sh && \
     cp *.a /usr/local/lib/ && \
+    cp -r Eigen/ /usr/local/include/ && \
     cd ../ && \
     rm -rf lapack_etc_make
 

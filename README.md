@@ -16,4 +16,4 @@ $ make
 $ ./a.out
 ```
 
-
+Path of installed libraries is '/usr/local/lib' or '/usr/local/include'.

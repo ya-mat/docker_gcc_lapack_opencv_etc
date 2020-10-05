@@ -2,7 +2,7 @@
 # Released under the MIT license
 # https://opensource.org/licenses/MIT
 
-FROM gcc_lapack_etc:latest
+FROM yamat/gcc_lapack_etc:latest
 
 RUN apt update && \
     apt install -y \

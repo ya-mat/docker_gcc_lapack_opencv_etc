@@ -1,6 +1,6 @@
 # docker_gcc_lapack_opencv_etc
 
-This image add several libraries to [gcc](https://hub.docker.com/_/gcc) for gfortran. Libraries are installed to '/usr/local/lib'.
+This image add several libraries to latest image of [gcc](https://hub.docker.com/_/gcc) for gcc compiler and gfortran. Libraries are installed to '/usr/local/lib'.
 
 ## Install
 
